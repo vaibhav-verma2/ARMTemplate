@@ -8,14 +8,14 @@
         "webappname": {
             "value": "securitypolicy"
         },
+        "serverFarmResourceGroup": {
+            "value": "securitypolicyrg"
+        },
         "location": {
             "value": "Central India"
         },
         "hostingPlanName": {
             "value": "ASP-securitypolicyrg-b91a"
-        },
-        "serverFarmResourceGroup": {
-            "value": "securitypolicyrg"
         },
         "alwaysOn": {
             "value": true
