@@ -5,6 +5,12 @@
         "subscriptionId": {
             "value": "6d8fa339-2b40-49f5-9483-2b1b4b1d10fe"
         },
+        "name": {
+            "value": "securitypolicy"
+        },
+        "serverFarmResourceGroup": {
+            "value": "securitypolicyrg"
+        },
         "location": {
             "value": "Central India"
         },
