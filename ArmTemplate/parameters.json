@@ -30,13 +30,13 @@
             "value": "S1"
         },
         "workerSize": {
-            "value": "0"
+            "value": "2"
         },
         "workerSizeId": {
             "value": "0"
         },
         "numberOfWorkers": {
-            "value": "1"
+            "value": "4"
         },
         "currentStack": {
             "value": "dotnetcore"
