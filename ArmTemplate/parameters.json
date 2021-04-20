@@ -17,6 +17,9 @@
         "hostingPlanName": {
             "value": "ASP-securitypolicyrg-b91a"
         },
+        "artifactsLocation": {
+            "value": ""
+        },
         "alwaysOn": {
             "value": true
         },
@@ -43,9 +46,6 @@
         },
         "errorLink": {
             "value": "https://securitypolicy.scm.azurewebsites.net/detectors?type=tools&name=eventviewer"
-        },
-        "artifactsLocation": {
-            "value": ""
         }
     }
 }
