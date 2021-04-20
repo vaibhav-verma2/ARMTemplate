@@ -44,7 +44,7 @@
         "errorLink": {
             "type": "string"
         },
-        "_artifactsLocation": {
+        "artifactsLocation": {
             "type": "string"
         }
     },
@@ -92,7 +92,7 @@
                         "displayName": "webDeploy"
                     },
                     "properties": {
-                        "packageUri": "[parameters('_artifactsLocation')]",
+                        "packageUri": "[parameters('artifactsLocation')]",
                         "dbType": "None",
                         "connectionString": "",
                         "setParameters": {

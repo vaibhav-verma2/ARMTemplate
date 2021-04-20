@@ -44,7 +44,7 @@
         "errorLink": {
             "value": "https://securitypolicy.scm.azurewebsites.net/detectors?type=tools&name=eventviewer"
         },
-        "_artifactsLocation": {
+        "artifactsLocation": {
             "value": ""
         }
     }
