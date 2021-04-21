@@ -120,26 +120,6 @@
                 "Tier": "[parameters('sku')]",
                 "Name": "[parameters('skuCode')]"
             }
-        },
-        {
-            "name": "[parameters('webappname')]",
-            "type": "Microsoft.Web/sites",
-            "apiVersion": "2018-11-01",
-            "location": "[resourceGroup().location]",
-            "dependsOn": [
-                "[concat('Microsoft.Web/sites/', parameters('webappname'))]"
-            ],
-            "tags": {
-                "displayName": "Web Deploy for securitypolicy"
-            },
-            "properties": {
-                "packageUri": "[parameters('artifactsLocation')]",
-                "dbType": "None",
-                "connectionString": "",
-                "setParameters": {
-                    "IIS Web Application Name": "[parameters('webappname')]"
-                }
-            }
         }
     ]
 }
