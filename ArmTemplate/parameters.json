@@ -18,7 +18,7 @@
             "value": "ASP-securitypolicyrg-b91a"
         },
         "artifactsLocation": {
-            "value": "https://securitypolicystore.blob.core.windows.net/admfiles/"
+            "value": "C:/jenkins_cpg/workspace/Cloud-Security-Automation/SecurityPolicyServicesWebApp/SecurityPolicyServices/bin/Debug/netcoreapp3.1/"
         },
         "alwaysOn": {
             "value": true
