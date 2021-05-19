@@ -79,28 +79,7 @@
                 "serverFarmId": "[concat('/subscriptions/', parameters('subscriptionId'),'/resourcegroups/', parameters('serverFarmResourceGroup'), '/providers/Microsoft.Web/serverfarms/', parameters('hostingPlanName'))]",
                 "clientAffinityEnabled": true
             },
-            "resources": [
-                {
-                    "name": "MSDeploy",
-                    "type": "extensions",
-                    "location": "[resourceGroup().location]",
-                    "apiVersion": "2015-08-01",
-                    "dependsOn": [
-                        "[concat('Microsoft.Web/sites/', parameters('webappname'))]"
-                    ],
-                    "tags": {
-                        "displayName": "webDeploy"
-                    },
-                    "properties": {
-                        "packageUri": "[concat(parameters('artifactsLocation'))]",
-                        "dbType": "None",
-                        "connectionString": "",
-                        "setParameters": {
-                            "IIS Web Application Name": "[parameters('webappname')]"
-                        }
-                    }
-                }
-            ]
+            "resources": []
         },
         {
             "apiVersion": "2018-11-01",
