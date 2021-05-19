@@ -109,7 +109,9 @@
             "location": "[parameters('location')]",
             "kind": "",
             "tags": {},
-            "dependsOn": [],
+            "dependsOn": [
+                "[concat('Microsoft.Resources/resourceGroups/', parameters('serverFarmResourceGroup'))]"
+            ],
             "properties": {
                 "name": "[parameters('hostingPlanName')]",
                 "workerSize": "[parameters('workerSize')]",
@@ -119,6 +121,16 @@
             "sku": {
                 "Tier": "[parameters('sku')]",
                 "Name": "[parameters('skuCode')]"
+            }
+        },
+        {
+            "name": "[parameters('serverFarmResourceGroup')]",
+            "type": "Microsoft.Resources/resourceGroups",
+            "apiVersion": "2019-10-01",
+            "location": "eastus",
+            "dependsOn": [
+            ],
+            "tags": {
             }
         }
     ]
