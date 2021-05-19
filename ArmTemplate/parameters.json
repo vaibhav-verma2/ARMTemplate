@@ -15,7 +15,7 @@
             "value": "Central India"
         },
         "hostingPlanName": {
-            "value": "ASP-securitypolicyrg-b91a"
+            "value": "securitypolicyserviceplan"
         },
         "artifactsLocation": {
             "value": ""
